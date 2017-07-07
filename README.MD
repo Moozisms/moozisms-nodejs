@@ -1,10 +1,9 @@
 # NODEJS MODULE FOR MOOZISMS
-
 Javascript client for sending SMS 
 
 > Recover your API Credentials on Moozisms Dashboard
 
-### INSTALL MODULE
+### INSTALLATION MODULE
 
 ```javascript
    npm install moozisms
@@ -13,9 +12,14 @@ Javascript client for sending SMS
 ### USAGE
 
 ```javascript
-   var sms = require('moozisms')("API_KEY","API_SECRET");
+   var moozi = require('moozisms');
+   var sms = new moozi.setup(
+      "API_KEY": "XXXX", 
+      "API_SECRET": "XXXX",
+      "CONTENT_TYPE": "XXXX" /* optionnal json is used by default. value possible (json or xml) */
+    );
    sms.send("from","to","message"); 
-   sms.sendBulk("from /* Sender Alphanumeric ID */","listed contact with comma","message");
+   sms.sendBulk("from","listed contact with comma","message");
    sms.checkStatus("reference");
    sms.checkReport("date");
 
@@ -24,3 +28,8 @@ Javascript client for sending SMS
 
 ### FUNCTIONALITY
 
+## SENDING Simple SMS
+
+
+### LICENCE 
+MIT
