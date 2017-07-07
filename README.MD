@@ -26,7 +26,7 @@ Javascript client for sending SMS
 ```
 
 
-> LIST OF FUNCTIONALITY AVALAIBLE
+### LIST OF FUNCTIONALITY AVALAIBLE
 
 #### SENDING Simple SMS
 #### SENDING Bulk SMS
