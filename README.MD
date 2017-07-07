@@ -7,17 +7,17 @@ Javascript client for sending SMS
 ### INSTALL MODULE
 
 ```javascript
-	    npm install moozisms
+   npm install moozisms
 ```
 
 ### USAGE
 
 ```javascript
-	   var sms = require('moozisms')("API_KEY","API_SECRET");
-	       sms.send("from","to","message"); 
-	       sms.sendBulk("from /* Sender Alphanumeric ID */","listed contact with comma","message");
-	       sms.checkStatus("reference");
-	       sms.checkReport("date");
+   var sms = require('moozisms')("API_KEY","API_SECRET");
+   sms.send("from","to","message"); 
+   sms.sendBulk("from /* Sender Alphanumeric ID */","listed contact with comma","message");
+   sms.checkStatus("reference");
+   sms.checkReport("date");
 
 ```
 
