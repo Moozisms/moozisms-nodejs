@@ -26,9 +26,15 @@ Javascript client for sending SMS
 ```
 
 
-### FUNCTIONALITY
+> LIST OF FUNCTIONALITY AVALAIBLE
 
-## SENDING Simple SMS
+#### SENDING Simple SMS
+#### SENDING Bulk SMS
+#### MANAGE CONTACT 
+#### CHECK SMS STATUS 
+#### CHECK SMS STATUS 
+#### CHECK SMS REPORT 
+
 
 
 ### LICENCE 
